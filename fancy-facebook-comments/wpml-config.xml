@@ -4,4 +4,12 @@
             <key name="commenting_label" />
         </key>
     </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>Fancy_Facebook_Comments</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+	</shortcodes>
 </wpml-config>
