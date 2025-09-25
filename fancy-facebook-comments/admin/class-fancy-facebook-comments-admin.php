@@ -195,7 +195,7 @@ class Fancy_Facebook_Comments_Admin {
 	 */	
 	public function fb_sdk_script() {
 
-		wp_enqueue_script( 'heateor_ffc_fb_sdk_script', plugins_url( 'js/fancy-facebook-comments-fb-sdk.js', __FILE__ ), false, $this->version );
+		wp_enqueue_script( 'heateor_ffc_fb_sdk_script', plugins_url( 'js/fancy-facebook-comments-fb-sdk.js', __FILE__ ), false, $this->version, true );
 	
 	}
 

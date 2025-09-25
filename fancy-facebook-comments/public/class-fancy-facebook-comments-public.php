@@ -283,7 +283,7 @@ class Fancy_Facebook_Comments_Public {
 
 		$commenting_html = '';
 		if ( ! isset( $this->options['dont_load_sdk'] ) ) {
-			$commenting_html = '<script type="text/javascript">!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/' . ( $this->options['comment_lang'] != '' ? $this->options["comment_lang"] : 'en_GB' ) . '/sdk.js#xfbml=1&version=v22.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>';
+			$commenting_html = '<script type="text/javascript">!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/' . ( $this->options['comment_lang'] != '' ? $this->options["comment_lang"] : 'en_GB' ) . '/sdk.js#xfbml=1&version=v23.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>';
 		}
 		$commenting_html .= $this->facebook_comments_moderation_optin();
 		$commenting_html .= $this->facebook_comments_notifier_optin();
