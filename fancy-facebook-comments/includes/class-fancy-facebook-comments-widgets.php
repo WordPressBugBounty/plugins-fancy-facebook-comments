@@ -89,7 +89,7 @@ class Fancy_Facebook_Comments_Widget extends WP_Widget {
 
 		$html = '<style type="text/css">.fb-comments,.fb-comments span,.fb-comments span iframe[style]{min-width:100%!important;width:100%!important}</style>';
 		if ( ! isset( $instance['dont_load_sdk'] ) ) {
-			$html .= '<script type="text/javascript">!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/' . $instance['language'] . '/sdk.js#xfbml=1&version=v23.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>';
+			$html .= '<script type="text/javascript">!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/' . $instance['language'] . '/sdk.js#xfbml=1&version=v24.0",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>';
 		}
 		$html .= $this->public_class_object->facebook_comments_moderation_optin();
 		$html .= $this->public_class_object->facebook_comments_notifier_optin();

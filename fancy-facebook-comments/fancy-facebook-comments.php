@@ -7,7 +7,7 @@
  * Plugin Name:       Fancy Facebook Comments
  * Plugin URI:        https://www.heateor.com/fancy-facebook-comments/#live_demo
  * Description:       Integrate Facebook Comments with your WordPress website easiest possible way
- * Version:           1.2.20
+ * Version:           1.2.21
  * Author:            Team Heateor
  * Author URI:        https://www.heateor.com
  * Text Domain:       fancy-facebook-comments
@@ -21,7 +21,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'HEATEOR_FFC_VERSION', '1.2.20' );
+define( 'HEATEOR_FFC_VERSION', '1.2.21' );
 define( 'HEATEOR_FFC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 // plugin core class object

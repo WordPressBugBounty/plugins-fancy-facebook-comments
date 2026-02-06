@@ -3,8 +3,8 @@ Contributors: Heateor
 Donate link: https://www.heateor.com/donate/?action=Fancy+Comments
 Tags: facebook comments, facebook commenting, social comments, social commenting
 Requires at least: 2.5.0
-Tested up to: 6.8.2
-Stable tag: 1.2.20
+Tested up to: 6.8.3
+Stable tag: 1.2.21
 License: GPLv2 or later
 
 Integrate Facebook Comments with your WordPress website easiest possible way 
@@ -123,6 +123,9 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 3. **Plugin Options Back-End**
 
 == Changelog ==
+= 1.2.21 [9 November 2025] =
+* [Improvement] Updated Facebook JS SDK being used throughout the plugin to the latest version 24.0
+
 = 1.2.20 [25 September 2025] =
 * [Improvement] Updated Facebook JS SDK being used throughout the plugin to the latest version 23.0
 * [Improvement] Minor improvements
@@ -401,3 +404,6 @@ Yes, we can help you with it. Just drop an email at support[at]heateor[dot]com
 = 1.2.20 [25 September 2025] =
 * [Improvement] Updated Facebook JS SDK being used throughout the plugin to the latest version 23.0
 * [Improvement] Minor improvements
+
+= 1.2.21 [9 November 2025] =
+* [Improvement] Updated Facebook JS SDK being used throughout the plugin to the latest version 24.0
